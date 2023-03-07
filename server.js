@@ -31,7 +31,11 @@ app.get('/', function(req, res) {
   });
 });
 
-
+//about page
+//about page
+app.get('/about', function(req, res) {
+  res.render('pages/about');
+});
 const port = 8080;
 const start = async () => {
   try {
